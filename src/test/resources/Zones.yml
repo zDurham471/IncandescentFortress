@@ -1,0 +1,13 @@
+--- # Zones
+forest:
+  description: |
+    This is a forest that you are standing in right now.
+    Nothing to do here.
+  adjacentZones:
+    - fields
+fields:
+  description: |
+    This is a field that you are standing in right now.
+    Nothing to do here.
+  adjacentZones:
+    - forest
